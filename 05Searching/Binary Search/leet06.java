@@ -11,7 +11,7 @@ public class leet06 {
             }
             else s = mid+1;
         }
-        return s;
+        return arr[s];
     }
 }
 
