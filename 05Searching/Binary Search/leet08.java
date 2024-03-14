@@ -16,8 +16,6 @@ public class leet08 {
         while(l <= h) {
             int mid = l+(h-l)/2;
             if(arr[mid] == target) {
-                // System.out.println(mid);
-                // left = mid;
                 return mid;
             }
             else if(target  > arr[mid]) {
@@ -31,8 +29,6 @@ public class leet08 {
         while(l <= h) {
             int mid = l+(h-l)/2;
             if(arr[mid] == target) {
-                // System.out.println(mid);
-                // right = mid;
                 return mid;
             }
             else if(target  < arr[mid]) {
