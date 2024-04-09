@@ -1,0 +1,14 @@
+package Bits.BitsManupulation;
+
+public class Prog01 {
+    public static void main(String[] args) {
+        int n = 5; // 0101
+        int pos = 3;
+        int bitmask = 1 << pos;
+        if((bitmask & n) == 0) {
+            System.out.println("bit was zero");
+        }
+        else
+        System.out.println("bit was 1");
+    }
+}

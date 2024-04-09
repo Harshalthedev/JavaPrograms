@@ -30,8 +30,8 @@ public class leet09 {
         return -1;
     }
     public static void main(String[] args) {
-        // int[] nums = {4,5,6,7,8,0,1,2};
-        int[] nums = {2,9,2,2,2,};
+        int[] nums = {4,5,6,7,8};
+        // int[] nums = {2,9,2,2,2,};
         int target = 9;
         System.out.println(peakindex(nums,target));
     }
