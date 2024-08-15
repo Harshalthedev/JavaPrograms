@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-class ArrayListExamp01
+class ArrayList01
 {
     public static void main(String[] args)
     {

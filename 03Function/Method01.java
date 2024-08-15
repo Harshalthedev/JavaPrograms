@@ -8,7 +8,7 @@ class Method01
     }
     public static void main(String[] args)
     {
-        int sum = add(5,5);
+        int sum = add(5,5);  // method calling
         System.out.println("the sum is "+sum);
     }
 }

@@ -1,4 +1,3 @@
-import java.util.Stack;
 
 public class Program09 {
     public static void main(String[] args) {

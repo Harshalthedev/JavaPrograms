@@ -21,7 +21,8 @@ public class Method {
         // String s1 = "india";
         // String s2 = "india";
         // System.out.println(s1.equals(s2));   //prints true 
-        // String s3 = "INDIA";
+        // String s3 = "I";
+        // char s2 = 'I';
         // System.out.println(s2.equals(s3));          // prints fasle  
         // System.out.println(s2.equalsIgnoreCase(s3));    //prints true as it ignore the case
 
