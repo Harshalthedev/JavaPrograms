@@ -11,6 +11,7 @@ public class Arrays05 {
           if(max < nums[i]) {
               max = nums[i];     
               index = i;
+              
           }
         } 
       return index; 
