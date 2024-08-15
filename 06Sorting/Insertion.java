@@ -10,8 +10,8 @@ public class Insertion {
             }
             arr[j+1] = key;
         }
-        for (int k = 0; k < arr.length; k++) {
-            System.out.print(arr[k]+" ");
-        }
+        // for (int k = 0; k < arr.length; k++) {
+        //     System.out.print(arr[k]+" ");
+        // }
     }
 }

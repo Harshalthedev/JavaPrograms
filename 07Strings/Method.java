@@ -1,6 +1,6 @@
-// import java.util.Arrays;
+import java.util.Arrays;
 
-public class StringsMethod {
+public class Method {
     public static void main(String[] args) {
 
         // // concatenation
@@ -13,9 +13,9 @@ public class StringsMethod {
         // System.out.println(name.substring(0,5));
 
         // // Character index
-        // String n = "Harshal";
+        String n = "Harshal";
         // System.out.println(n.charAt(3));    // this method is used to get the index element
-        // System.out.println(Arrays.toString(n.toCharArray())); // converts string into the char array 
+        System.out.println(Arrays.toString(n.toCharArray())); // converts string into the char array 
 
         // // 1.Equals method
         // String s1 = "india";
@@ -28,15 +28,21 @@ public class StringsMethod {
         // // 2.Compareto() method
         // // it works on the lexicographical order that is alphabetical order
         // String s4 = "harsh";
-        // String s5 = "harsh";
-        // String s6= "harry";
+        // String s5 = "india";
+        // String s6= "china";
         // System.out.println(s4.compareTo(s5));     //it returns 0 
         // System.out.println(s4.compareTo(s6));     //it returns 1  (because s4>s5)
         // System.out.println(s6.compareTo(s5));     //it returns 0 (because s6>s5)
 
         //replace()
-        String s7 = "Java is a programming language. Java is a platform. Java is an Island."; 
-        String s8 = s7.replace("Java","kawa");
-        System.out.println(s8);
+        // String s7 = "Java is a programming language. Java is a platform. Java is an Island."; 
+        // String s8 = s7.replace("Java","kawa");
+        // System.out.println(s8);
+
+        // String s1 = "code";
+        // String s2 = new String("code");
+        // System.out.println(s1.equals(s2));
+        
+
     }
 }
