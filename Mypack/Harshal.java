@@ -1,5 +1,5 @@
 package Mypack;
-import Mypack.Accessing_package.*;
+import Mypack.Accessing_package;
 
 public class Harshal {
     public static void main(String[] args)
