@@ -1,0 +1,532 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "leetArr51",
+            "request": "launch",
+            "mainClass": "leetArr51",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr49",
+            "request": "launch",
+            "mainClass": "leetArr49",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList01",
+            "request": "launch",
+            "mainClass": "ArrayList01",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList02",
+            "request": "launch",
+            "mainClass": "ArrayList02",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList03",
+            "request": "launch",
+            "mainClass": "ArrayList03",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList04",
+            "request": "launch",
+            "mainClass": "ArrayList04",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Array_input",
+            "request": "launch",
+            "mainClass": "Array_input",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Arrays01",
+            "request": "launch",
+            "mainClass": "Arrays01",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Arrays02",
+            "request": "launch",
+            "mainClass": "Arrays02",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Arrays04",
+            "request": "launch",
+            "mainClass": "Arrays04",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Arrays05",
+            "request": "launch",
+            "mainClass": "Arrays05",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Multidinal01",
+            "request": "launch",
+            "mainClass": "Multidinal01",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Multidinal02",
+            "request": "launch",
+            "mainClass": "Multidinal02",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Multidinal03",
+            "request": "launch",
+            "mainClass": "Multidinal03",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Sumoflowertriangel",
+            "request": "launch",
+            "mainClass": "Sumoflowertriangel",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Swaping",
+            "request": "launch",
+            "mainClass": "Swaping",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "Transpose",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "Uppersum",
+            "request": "launch",
+            "mainClass": "Uppersum",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr01",
+            "request": "launch",
+            "mainClass": "hackerr01",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr02",
+            "request": "launch",
+            "mainClass": "hackerr02",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr03",
+            "request": "launch",
+            "mainClass": "hackerr03",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr04",
+            "request": "launch",
+            "mainClass": "hackerr04",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr05",
+            "request": "launch",
+            "mainClass": "hackerr05",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr06",
+            "request": "launch",
+            "mainClass": "hackerr06",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr07",
+            "request": "launch",
+            "mainClass": "hackerr07",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr08",
+            "request": "launch",
+            "mainClass": "hackerr08",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "hackerr09",
+            "request": "launch",
+            "mainClass": "hackerr09",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leet04",
+            "request": "launch",
+            "mainClass": "leet04",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr01",
+            "request": "launch",
+            "mainClass": "leetArr01",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr02",
+            "request": "launch",
+            "mainClass": "leetArr02",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr03",
+            "request": "launch",
+            "mainClass": "leetArr03",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr05",
+            "request": "launch",
+            "mainClass": "leetArr05",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr06",
+            "request": "launch",
+            "mainClass": "leetArr06",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr07",
+            "request": "launch",
+            "mainClass": "leetArr07",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr08",
+            "request": "launch",
+            "mainClass": "leetArr08",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr09",
+            "request": "launch",
+            "mainClass": "leetArr09",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr10",
+            "request": "launch",
+            "mainClass": "leetArr10",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr11",
+            "request": "launch",
+            "mainClass": "leetArr11",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr12",
+            "request": "launch",
+            "mainClass": "leetArr12",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr13",
+            "request": "launch",
+            "mainClass": "leetArr13",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr14",
+            "request": "launch",
+            "mainClass": "leetArr14",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr15",
+            "request": "launch",
+            "mainClass": "leetArr15",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr16",
+            "request": "launch",
+            "mainClass": "leetArr16",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr17",
+            "request": "launch",
+            "mainClass": "leetArr17",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr18",
+            "request": "launch",
+            "mainClass": "leetArr18",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr19",
+            "request": "launch",
+            "mainClass": "leetArr19",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr20",
+            "request": "launch",
+            "mainClass": "leetArr20",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr21",
+            "request": "launch",
+            "mainClass": "leetArr21",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr22",
+            "request": "launch",
+            "mainClass": "leetArr22",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr23",
+            "request": "launch",
+            "mainClass": "leetArr23",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr24",
+            "request": "launch",
+            "mainClass": "leetArr24",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr25",
+            "request": "launch",
+            "mainClass": "leetArr25",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr26",
+            "request": "launch",
+            "mainClass": "leetArr26",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr27",
+            "request": "launch",
+            "mainClass": "leetArr27",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr28",
+            "request": "launch",
+            "mainClass": "leetArr28",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr29",
+            "request": "launch",
+            "mainClass": "leetArr29",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr30",
+            "request": "launch",
+            "mainClass": "leetArr30",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr31",
+            "request": "launch",
+            "mainClass": "leetArr31",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr32",
+            "request": "launch",
+            "mainClass": "leetArr32",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr33",
+            "request": "launch",
+            "mainClass": "leetArr33",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr34",
+            "request": "launch",
+            "mainClass": "leetArr34",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr35",
+            "request": "launch",
+            "mainClass": "leetArr35",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr36",
+            "request": "launch",
+            "mainClass": "leetArr36",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr37",
+            "request": "launch",
+            "mainClass": "leetArr37",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr39",
+            "request": "launch",
+            "mainClass": "leetArr39",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr40",
+            "request": "launch",
+            "mainClass": "leetArr40",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr41",
+            "request": "launch",
+            "mainClass": "leetArr41",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr42",
+            "request": "launch",
+            "mainClass": "leetArr42",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr43",
+            "request": "launch",
+            "mainClass": "leetArr43",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr44",
+            "request": "launch",
+            "mainClass": "leetArr44",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr45",
+            "request": "launch",
+            "mainClass": "leetArr45",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr46",
+            "request": "launch",
+            "mainClass": "leetArr46",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr47",
+            "request": "launch",
+            "mainClass": "leetArr47",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr48",
+            "request": "launch",
+            "mainClass": "leetArr48",
+            "projectName": "04Arrays_aa806fbf"
+        }
+    ]
+}
