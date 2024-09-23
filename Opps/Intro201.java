@@ -9,15 +9,15 @@ public class Intro201 {
         Accessingpack2 msg = new Accessingpack2();
         msg.message();
         
-        A ob = new A("India");
-        System.out.println(ob.name);
+        // A ob = new A("India");
+        // System.out.println(ob.name);
 
     }
 }
 
-class A {
-    String name ;
-    A(String name) {
-        this.name = name;
-    }
-}
+// class A {
+//     String name ;
+//     A(String name) {
+//         this.name = name;
+//     }
+// }

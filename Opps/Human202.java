@@ -10,7 +10,7 @@ public class Human202 {
         this.salary = salary;
         this.name = name;
         this.married = married;
-        // this.population = 90000000;    // both are right Human and this
-        Human202.population = 90000000;
+        this.population = 90000000;    // both are right Human and this
+        // Human202.population = 90000000;
     }
 }
