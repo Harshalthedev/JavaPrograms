@@ -1,26 +1,51 @@
+import java.util.Arrays;
 
-public class Merge {
+class Merge {
     public static void main(String[] args) {
-        int[] arr = {6,3,9,5,2,8};
-//         int n = arr.length;
-//         int l = 0;
-//         int h = n-1;
-//         int mid = (l +(h-l))/2;
-//         Divide(arr,l,mid);
-//     }
-//     public static int Divide(int[] arr, int l,int h) {
-// return 0;
-        for (int i = 1; i < arr.length; i++) {
-            int key = arr[i];
-            int j = i-1;
-            while (j >=0 && arr[j] > key) {
-                arr[j+1] = arr[j];
-                j--;
+        int[] arr = {8,3,4,12,5,6};
+        arr = merge(arr);
+        for (int i : arr) {
+            System.out.print(i+" ");
+        }
+    }
+    public static int[] merge(int[] arr) {
+        if ( arr.length == 1) {
+            return arr;
+        }
+        int mid = arr.length/2;
+        int[] left = merge(Arrays.copyOfRange(arr, 0, mid));
+        int[] right = merge(Arrays.copyOfRange(arr, mid, arr.length));
+        return merge(left, right);
+    }
+    public static int[] merge(int[] first, int[] second) {
+        int[] mix = new int[first.length+second.length];
+
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while ( i < first.length && j < second.length) {
+            if (first[i] > second[j]) {
+                mix[k] = second[j];
+                j++;
             }
-            arr[j+1] = key;
+            else {
+                mix[k] = first[i];
+                i++;
+            }
+            k++;
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]+" ");
+
+        while ( i < first.length) {
+            mix[k] = first[i];
+            i++;
+            k++;
         }
+        while ( j < second.length) {
+            mix[k] = second[j];
+            j++;
+            k++;
+        }
+        return mix;
     }
 }
