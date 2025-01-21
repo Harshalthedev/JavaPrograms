@@ -1,4 +1,4 @@
-public class leet {
+public class leet22 {
     public static void main(String[] args) {
         int n =20 , time =9;
         int rounds = time / (n-1);

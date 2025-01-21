@@ -1,38 +1,43 @@
-class Quick {
-    static void quick(int[] arr,int l,int h) {
-        if(l<h) {
-            int pi = partition(arr,l,h);
-            quick(arr, l, pi-1);
-            quick(arr, pi+1, h);
+import java.util.Arrays;
 
-        }
+class Quick{
+    public static void main(String[] args) {
+        int[] arr = {5,4,3,2,1};
+        sort(arr, 0, arr.length-1);  
+        System.out.println(Arrays.toString(arr));      
     }
-    static int partition(int[] arr,int l, int h) {
-        int pivot = arr[h];
-        int i = l-1;
-        for (int j = l; j < h; j++) {
-            if( arr[j] < pivot) {
-                i++;
-                int temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
+    static void sort(int[] arr, int low, int high) {
+        if (low >= high) {
+            return;
+        }
+        int s = low;
+        int e = high;
+        int mid = s + (e-s)/2;
+
+        int pivot = arr[mid];
+
+        while (s <= e) {
+            
+            while (arr[s] < pivot) {
+                s++;
+            }
+            while (arr[e] > pivot) {
+                e--;
+            }
+            if (s < e) {
+                int temp = arr[s];
+                arr[s] = arr[e];
+                arr[e] = temp;
+                s++;
+                e--;
+            }
+            else {
+                s++;
+                e--;
             }
         }
-        i++;
-        int temp = arr[i];
-        arr[i] = arr[h];
-        arr[h] = temp;
-        return i;
-    }
-    static void printArr(int[] arr,int n) {
-        for (int i = 0; i <= n; i++) {
-            System.out.print(arr[i]+" ");
-        }
-    }
-    public static void main(String[] args) {
-        int[] arr = {3,5,4,1,6,2};
-        int n = arr.length-1;
-        quick(arr,0,n);
-        printArr(arr,n);
+
+        sort(arr, low, e);
+        sort(arr, s, high);
     }
 }
