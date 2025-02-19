@@ -52,7 +52,6 @@ public class Single {
         }
     } 
     private void insertBegin(int data) {
-
         Node node = new Node(data);
         node.next = head;
         head = node;
