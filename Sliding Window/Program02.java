@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Program02 {
     public static void main(String[] args) {
-        int[] nums = {4,3,6,2,1,1};
+        int[] nums = {4,3,6,1,2,1};
         //  here the element of array are  1 to n
         int n = nums.length;
         Arrays.sort(nums);

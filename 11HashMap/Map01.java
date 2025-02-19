@@ -1,4 +1,4 @@
-import java.util.*Map;
+import java.util.*;
 class Map01 {
     public static void main(String[] args) {
         HashMap<String , Integer > map = new HashMap<>();

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Program110 {
+public class Program10 {
     public static void main(String[] args) {
         int[] arr = {3,2,5,1,9,4};
         // int[] arr = {3,4};
