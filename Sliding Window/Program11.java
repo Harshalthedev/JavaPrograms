@@ -9,7 +9,7 @@ public class Program11 {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int l = 0;
         int r = 0;
-        while( l < m+n && r <= n) {
+        while( l < m && r <= n) {
             if (nums1[l] < nums2[r]) {
                 l++;
             }
@@ -21,6 +21,11 @@ public class Program11 {
             }
             else {
                 l++;
+            }
+        }
+        if (m < m+n) {
+            for (int i = m; i < nums1.length; i++) {
+                nums1[i] = nums1[2];
             }
         }
         for (int i : nums1) {

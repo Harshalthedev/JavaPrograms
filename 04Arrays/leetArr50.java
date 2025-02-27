@@ -17,7 +17,7 @@ public class leetArr50 {
         sb.append(s.subSequence(0, p.length()-1));
         while (r < s.length()) {
             sb.append(s.charAt(r));
-            while ( ) {
+            while (true ) {
                 char[] ch = sb.toString().toCharArray();
                 Arrays.sort(ch);
                 if ( Arrays.equals(ch, ch1)) list.add(r-p.length()-1);
