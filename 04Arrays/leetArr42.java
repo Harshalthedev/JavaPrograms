@@ -3,7 +3,7 @@ import java.util.Stack;
 public class leetArr42 {
    public static void main(String[] args) {
     //    String s = "leEeetcode";
-       String s = "a";leetArr43.ja
+       String s = "a";
     //    String s = "jeSsEJ";
     //    String s = "abBAcC";
     StringBuilder sb = new StringBuilder(s);

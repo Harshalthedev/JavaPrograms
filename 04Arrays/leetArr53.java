@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class leetArrr53 {
+public class leetArr53 {
     public static void main(String[] args) {
         int[] score = {10,3,8,9,4};
         String[] str = findRelativeRanks(score);
