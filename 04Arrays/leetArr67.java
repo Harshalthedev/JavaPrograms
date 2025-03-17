@@ -19,7 +19,6 @@ public class leetArr67 {
                 // System.out.println(set.size());
                 if(set.size() == 5 && cntConsonant == k) {
                     count++;
-                    break;
                 }
             }
             set.clear();
