@@ -15,11 +15,9 @@ public class Program44 {
                 count = 1;
             }
             else count++;
-            System.out.println(sb);
         }
         sb.append(chars[chars.length-1]);
         if (count > 1) sb.append(count);
-        System.out.println(sb);
         int n = sb.length();
         String s = sb.toString();
         System.out.println(s);
