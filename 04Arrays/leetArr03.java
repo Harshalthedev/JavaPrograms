@@ -6,7 +6,7 @@ public class leetArr03 {
         int[][] matrix = new int[m][n];
 
         for (int[] a : indices) {
-            rows
+            
         }
 
 

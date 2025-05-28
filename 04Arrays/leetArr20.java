@@ -17,7 +17,7 @@ public class leetArr20 {
         int maxlen = Math.max(nums1.length, nums2.length);
         
         for (int i = 0; i < maxlen ; i++) {
-            if(
+            
             for (int j = 0; j < 1 ; j++) {
                 if (nums1[i][0] == nums2[i][0]) {
                     list.add(new ArrayList<>(java.util.Arrays.asList(nums1[i][0],nums1[i][1]+nums2[i][1])));
