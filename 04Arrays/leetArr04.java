@@ -1,4 +1,4 @@
-public class leet04 {
+public class leetArr04 {
     public static void main(String[] args) {
         int[] nums = {1,2,0,3,0,4,5};
         int count = 0;

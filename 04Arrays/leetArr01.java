@@ -15,7 +15,7 @@ class leetArr01 {
 
             for ( int i =0; i < coordinates.length; i++ ) {
                 if ( coordinates[i][j] == coordinates[i][j+1] ) {
-                    true;
+                    
                 }
                 else {
                 }
