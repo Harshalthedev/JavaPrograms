@@ -15,7 +15,7 @@ public class leetArr86 {
         StringBuilder sb = new StringBuilder();
         for (char ch : baseStr.toCharArray()) {
          // System.out.println(str);
-            sb.append(str);
+            sb.append(ch);
         }
         return sb.toString();
     }
