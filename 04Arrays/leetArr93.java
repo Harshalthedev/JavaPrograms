@@ -15,7 +15,6 @@ public class leetArr93 {
                 }
             }
         }
-        System.out.println();
         StringBuilder maxStr = new StringBuilder();
         for (char ch : nStr.toCharArray()) {
             if (c == ch) maxStr.append('9');
@@ -29,7 +28,6 @@ public class leetArr93 {
         }
         int a = Integer.parseInt(maxStr.toString());
         int b = Integer.parseInt(minStr.toString());
-        System.out.println(a+" "+b);
         return a - b;
     }
 }
