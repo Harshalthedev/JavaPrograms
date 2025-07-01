@@ -8,7 +8,6 @@ public class leetArr110 {
         int a = nums[0];
         int b = Integer.MAX_VALUE;
         int c = Integer.MAX_VALUE;
-        // int c = nums[1];
         for (int i = 1; i < nums.length; i++) {
             if (b > nums[i]) {
                 c = b;
