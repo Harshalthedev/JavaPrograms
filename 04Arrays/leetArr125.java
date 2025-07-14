@@ -1,9 +1,9 @@
 import java.util.*;
 public class leetArr125 {
     public static void main(String[] args) {
-        // List<Integer> list1 = new ArrayList<>(Arrays.asList(4,5,6,7));
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(4,5,6,7));
         List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4));
-        // System.out.println(amazon(list1));
+        System.out.println(amazon(list1));
         System.out.println(amazon(list2));
     }
     public static String amazon(List<Integer> list) {
