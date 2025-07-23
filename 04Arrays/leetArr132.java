@@ -23,13 +23,11 @@ public class leetArr132 {
                 max += Math.max(x, y);
                 sb.delete(ab, ab+2);
                 ab = sb.indexOf(a);
-                // System.out.println(sb.toString());
             }
             int ba = sb.indexOf(b);
             if (ba > -1) {
                 max += Math.min(x, y);
                 sb.delete(ba, ba+2);
-                // System.out.println(sb.toString());
             }
         }
         return max;
