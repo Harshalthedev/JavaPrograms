@@ -9,7 +9,6 @@ public class leetArr131 {
         sb.append(s.charAt(0));
         char[] ch = s.toCharArray();
         for (int i = 1; i < s.length(); i++) {
-            // if (cnt > 2) continue;
             if (ch[i] == ch[i-1]) {
                 cnt++;
             }
