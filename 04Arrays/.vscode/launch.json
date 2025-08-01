@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leetArr145",
+            "request": "launch",
+            "mainClass": "leetArr145",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
+            "name": "leetArr144",
+            "request": "launch",
+            "mainClass": "leetArr144",
+            "projectName": "04Arrays_aa806fbf"
+        },
+        {
+            "type": "java",
             "name": "leetArr143",
             "request": "launch",
             "mainClass": "leetArr143",
