@@ -22,6 +22,7 @@ public class SortBST04 {
             return;
         }
         int mid = l+(r-l)/2;
+        
         this.insert(arr[mid]);
         insertfun(arr, l ,mid-1);
         insertfun(arr, mid+1 ,r);
