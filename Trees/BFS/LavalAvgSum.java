@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
 
-final class LavalAvgSum {
+public class LavalAvgSum {
     private class Node {
         int val;
         Node left;
@@ -35,6 +35,30 @@ final class LavalAvgSum {
         if (root == null)   return list;
         queue.offer(root);
         return display(root);
+    }
+
+
+    public int deepestLeavesSum(Node root) {
+        //bfs
+        List<Integer> list = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            int sum = 0;
+            for (int i = 0; i < size; i++) {
+                Node curNode = queue.poll();
+                if (curNode.left != null) {
+                    queue.offer(curNode.left);
+                }
+                if (curNode.right != null) {
+                    queue.offer(curNode.right);
+                }
+                sum += curNode.val;
+            }
+            list.add(sum);
+        }
+        return list.get(list.size()-1);
     }
     
     //BFS
