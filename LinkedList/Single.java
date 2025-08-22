@@ -10,7 +10,7 @@ public class Single {
 
     }
 
-    private Node head;
+    private Node  head;
     private Node temp;
 
 
