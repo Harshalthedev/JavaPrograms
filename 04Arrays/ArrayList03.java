@@ -17,7 +17,7 @@ public class ArrayList03 {
                 list.remove(list.size()-1);
             }
         }
-        System.out.println(listleetArr);
+        System.out.println();
         for (int i = 0; i < list.size(); i++) {
             if ( list.get(i) % 7 == 0) {
                 list1.add(list.get(i));
