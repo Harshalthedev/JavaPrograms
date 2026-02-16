@@ -65,6 +65,7 @@ class Router {
         List<Integer> li = map.get(destination);
         int lo = lowerBound(li, startTime);
         int hi = upperBound(li, endTime);
+        return 0;
     }
     public int lowerBound(List<Integer> list, int target) {
         int s = 0;
@@ -83,7 +84,7 @@ class Router {
         while (s < e) {
             int mid = s + (e -s)/2;
             if (list.get(mid) > target) e = mid;
-            else s = mid+1
+            else s = mid+1;
         }
         return s;
     }
